@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html,
+body,
+#root,
+.app,
+.content {
+height: 100%;
+width: 100%;
+font-family: Poppins, sans-serif;
+}
+
+body:has(#lightmodeicon) {
+  background-image: url('../public/assets/bg-light.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+body:has(#darkmodeicon) {
+  background-image: url('../public/assets/bg-dark.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+
+
+.app {
+  display:flex;
+  position:relative;
+}
+
+::webkit-scrollbar {
+  width:10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-track:hover {
+  background: #555;
+}
