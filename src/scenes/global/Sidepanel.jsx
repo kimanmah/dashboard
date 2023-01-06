@@ -80,7 +80,7 @@ return (
                 alt="company logo"
                 width="40px"
                 height="40px"
-                src={`../../logo192.png`}
+                src={`../../assets/logo192.png`}
                 style={{ borderRadius:"50%"}}
                 />
             </Box>
