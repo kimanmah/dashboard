@@ -123,20 +123,20 @@ return (
 
     {/* MENU ITEMS */}
  <Box mt="27px" ml={isCollapsed ? undefined : "0px"}> 
-<Item title="Home" to="/home" icon={<HomeOutlinedIcon />} selected={selected} setSelected={setSelected} />
+<Item title="Home" to="/dashboard/home" icon={<HomeOutlinedIcon />} selected={selected} setSelected={setSelected} />
 <Typography variant="h6" color={colors.grey[300]} sx={{m: "15px 0 5px 20px"}}>People</Typography>
-<Item title="Employees" to="/employees" icon={<PeopleOutlinedIcon />} selected={selected} setSelected={setSelected} />
-<Item title="Contacts" to="/contacts" icon={<ContactsOutlinedIcon />} selected={selected} setSelected={setSelected} />
-<Item title="Profile Form" to="/form" icon={<PersonOutlinedIcon />} selected={selected} setSelected={setSelected} />
+<Item title="Employees" to="/dashboard/employees" icon={<PeopleOutlinedIcon />} selected={selected} setSelected={setSelected} />
+<Item title="Contacts" to="/dashboard/contacts" icon={<ContactsOutlinedIcon />} selected={selected} setSelected={setSelected} />
+<Item title="Profile Form" to="/dashboard/form" icon={<PersonOutlinedIcon />} selected={selected} setSelected={setSelected} />
 <Typography variant="h6" color={colors.grey[300]} sx={{m: "15px 0 5px 20px"}}>Company</Typography>
-<Item title="Invoices" to="/invoices" icon={<ReceiptOutlinedIcon />} selected={selected} setSelected={setSelected} />
-<Item title="Calendar" to="/calendar" icon={<CalendarTodayOutlinedIcon />} selected={selected} setSelected={setSelected} />
-<Item title="FAQ" to="/faq" icon={<HelpOutlinedIcon />} selected={selected} setSelected={setSelected} />
+<Item title="Invoices" to="/dashboard/invoices" icon={<ReceiptOutlinedIcon />} selected={selected} setSelected={setSelected} />
+<Item title="Calendar" to="/dashboard/calendar" icon={<CalendarTodayOutlinedIcon />} selected={selected} setSelected={setSelected} />
+<Item title="FAQ" to="/dashboard/faq" icon={<HelpOutlinedIcon />} selected={selected} setSelected={setSelected} />
 <Typography variant="h6" color={colors.grey[300]} sx={{m: "15px 0 5px 20px"}}>Reports</Typography>
-<Item title="Bar Chart" to="/bar" icon={<BarChartOutlinedIcon />} selected={selected} setSelected={setSelected} />
-<Item title="Pie Chart" to="/pie" icon={<PieChartOutlineOutlinedIcon />} selected={selected} setSelected={setSelected} />
-<Item title="Line Chart" to="/line" icon={<TimelineOutlinedIcon />} selected={selected} setSelected={setSelected} />
-<Item title="Geography Chart" to="/geography" icon={<MapOutlinedIcon />} selected={selected} setSelected={setSelected} />
+<Item title="Bar Chart" to="/dashboard/bar" icon={<BarChartOutlinedIcon />} selected={selected} setSelected={setSelected} />
+<Item title="Pie Chart" to="/dashboard/pie" icon={<PieChartOutlineOutlinedIcon />} selected={selected} setSelected={setSelected} />
+<Item title="Line Chart" to="/dashboard/line" icon={<TimelineOutlinedIcon />} selected={selected} setSelected={setSelected} />
+<Item title="Geography Chart" to="/dashboard/geography" icon={<MapOutlinedIcon />} selected={selected} setSelected={setSelected} />
 
     </Box>
 

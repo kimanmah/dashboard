@@ -42,18 +42,18 @@ function App() {
         
         <Topbar />
         <Routes>
-          <Route path="/home" element={<Dashboard />} />
+          <Route path="/dashboard/home" element={<Dashboard />} />
           
-           <Route path="/employees" element={<Employees />} />
-           <Route path="/contacts" element={<Contacts />} />
-           <Route path="/invoices" element={<Invoices />} />
-           <Route path="/form" element={<Form />} />
-           <Route path="/calendar" element={<Calendar />} />
-           <Route path="/faq" element={<FAQ />} />
-           <Route path="/bar" element={<Bar />} />
-           <Route path="/pie" element={<Pie />} />
-           <Route path="/line" element={<Line />} />
-           <Route path="/geography" element={<Geography />} />
+           <Route path="dashboard/employees" element={<Employees />} />
+           <Route path="/dashboard/contacts" element={<Contacts />} />
+           <Route path="/dashboard/invoices" element={<Invoices />} />
+           <Route path="/dashboard/form" element={<Form />} />
+           <Route path="/dashboard/calendar" element={<Calendar />} />
+           <Route path="/dashboard/faq" element={<FAQ />} />
+           <Route path="/dashboard/bar" element={<Bar />} />
+           <Route path="/dashboard/pie" element={<Pie />} />
+           <Route path="/dashboard/line" element={<Line />} />
+           <Route path="/dashboard/geography" element={<Geography />} />
 {/*
           
 
