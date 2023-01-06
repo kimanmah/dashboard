@@ -36,7 +36,7 @@ const Sidepanel = () => {
 const theme = useTheme();
 const colors = tokens(theme.palette.mode);
 const [isCollapsed, setIsCollapsed] = useState(false);
-const [selected, setSelected] = useState("Dashboard");
+const [selected, setSelected] = useState("Home");
 
 
 
@@ -80,7 +80,7 @@ return (
                 alt="company logo"
                 width="40px"
                 height="40px"
-                src={`/assets/logo192.png`}
+                src={`assets/logo192.png`}
                 style={{ borderRadius:"50%"}}
                 />
             </Box>
