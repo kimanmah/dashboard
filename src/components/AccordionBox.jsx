@@ -9,7 +9,7 @@ const AccordionBox = ({ question, answer }) => {
 
 
     return (
-        <Accordion sx={{ backgroundColor:colors.primary[800] }}>
+        <Accordion sx={{ backgroundColor:colors.primary[700] }}>
         <AccordionSummary expandIcon={<ExpandMoreOutlined />}> 
             <Typography color={colors.grey[100]} fontWeight="bold">{question}</Typography> 
         </AccordionSummary>  
