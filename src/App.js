@@ -42,7 +42,7 @@ function App() {
         
         <Topbar />
         <Routes>
-          <Route path="/dashboard/home" element={<Dashboard />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           
            <Route path="/dashboard/employees" element={<Employees />} />
            <Route path="/dashboard/contacts" element={<Contacts />} />

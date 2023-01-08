@@ -123,7 +123,7 @@ return (
 
     {/* MENU ITEMS */}
  <Box mt="27px" ml={isCollapsed ? undefined : "0px"}> 
-<Item title="Home" to="/dashboard/home" icon={<HomeOutlinedIcon />} selected={selected} setSelected={setSelected} />
+<Item title="Home" to="/dashboard" icon={<HomeOutlinedIcon />} selected={selected} setSelected={setSelected} />
 <Typography variant="h6" color={colors.grey[300]} sx={{m: "15px 0 5px 20px"}}>People</Typography>
 <Item title="Employees" to="/dashboard/employees" icon={<PeopleOutlinedIcon />} selected={selected} setSelected={setSelected} />
 <Item title="Contacts" to="/dashboard/contacts" icon={<ContactsOutlinedIcon />} selected={selected} setSelected={setSelected} />
